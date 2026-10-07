@@ -7,6 +7,16 @@
 We're here to be a part of your daily ritual and foster a space where you can
 unwind, savor your coffee, and cultivate meaningful connections.
 
+## Café info
+
+- **Address:** 4941 Lincoln Avenue, Cypress, CA 90630
+- **Hours:** Mon–Sat 6:30 am – 6:00 pm · Sun 8:30 am – 2:30 pm
+- **Instagram:** [@flatwhitecoffeeusa](https://www.instagram.com/flatwhitecoffeeusa/)
+- **Online ordering (Clover):** https://flat-white-coffee-cypress.cloveronline.com/menu/all
+- **Current site:** Squarespace (tarantula-green-l7g5.squarespace.com)
+- **Sells:** drinks, food, merch, coffee beans
+- **Recent event:** bagel pop-up with Bagelier
+
 ## Visual identity (from the menu board and logo)
 
 - Logo: hand-drawn fluffy dog face in leaf green, with "FLAT WHITE" arched above and a small heart.
