@@ -180,7 +180,7 @@ html.a11y-contrast .dog { display: none; }
   position: relative;
   background:
     linear-gradient(rgba(52, 36, 22, .72), rgba(52, 36, 22, .72)),
-    url("assets/photos/matcha-filming.jpg") 50% 65% / cover no-repeat;
+    url("assets/photos/poster-wall.jpg") center / cover no-repeat;
 }
 .intro.photo-bg p.caption, .intro.photo-bg p.caption em { color: var(--dot-cream); }
 .intro.photo-bg p.caption em { font-style: italic; font-weight: 400; }
