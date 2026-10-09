@@ -8,14 +8,14 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 |---|---|---|
 | `cafe-shelves.jpg` | Seating wall with pendant lights, bench, bean/merch shelves | Home – merch, Location (2) |
 | `merch.jpg` | Flat White merch (shirts, stickers, cups…) | Home – merch |
-| `banana-series.jpg` | "BANANA SERIES" photo with all three drinks | Home – banana series |
-| `banana-matcha-latte.jpg` | Banana matcha latte | Home – banana series |
 | `einspanner.jpg` | Einspänner (square-ish works best; shown in a circle) | Home – signatures |
 | `family-brew.jpg` | Family Brew | Home – signatures |
 | `mango-cream-cold-brew.jpg` | Mango Cream Cold Brew | Home – signatures |
 | `poster-wall.jpg` | Green tile wall with the drink posters | Location (1), About |
 | `counter-menu.jpg` | Counter with the menu + banana/matcha posters | Location (3) |
 | `team.jpg` | **Full staff photo** (wide/landscape) | About |
+
+| `financiers.jpg` | Financiers (pretzel, almond, chocolate) | Home – pastry case |
 
 Optional extras you sent that would also work well: `drinks-lineup.jpg` (milk pour over the row of 5 iced drinks), `matcha-commune.jpg` (iced matcha + Commune bag),
 `salt-bread-hold.jpg` (iced coffee + chocolate salt bread held up).
@@ -28,4 +28,4 @@ Already on the site: `cafe.mp4` (home hero), `behind-the-bar.mp4` (home), `bagel
 
 ## Already in
 
-`pour-over-beans.jpg`, `beans-trio.jpg`, `bagelier-*.jpg`, `pumpkin-spice-*.jpg`
+`pour-over-beans.jpg`, `beans-trio.jpg`, `bagelier-*.jpg`, `pumpkin-spice-*.jpg`, `banana-*.jpg`, `matcha-madeleines.jpg`
