@@ -20,6 +20,7 @@
   --dot-cream: #ece4cc;   /* warm cream from the logo/menu, not white */
 
   --font-display: "Outfit", system-ui, sans-serif;
+  --font-hand: "Caveat", "Segoe Print", "Bradley Hand", cursive;
   --font-body: "Nunito", system-ui, sans-serif;
 
   --radius: 16px;
@@ -27,6 +28,10 @@
   --cursor: url("assets/brand/cursor.png") 16 16, auto;
   --cursor-link: url("assets/brand/cursor-pointer.png") 20 20, pointer;
 }
+
+/* handwriting display font (Caveat, SIL OFL, bundled locally) */
+@font-face { font-family: "Caveat"; src: url("assets/fonts/caveat-latin-500-normal.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+@font-face { font-family: "Caveat"; src: url("assets/fonts/caveat-latin-700-normal.woff2") format("woff2"); font-weight: 600 700; font-display: swap; }
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -481,3 +486,28 @@ html.a11y-motion *, html.a11y-motion *::before, html.a11y-motion *::after { anim
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- handwritten headings & display text ---------- */
+h1, h2, h3, .float-word, .fav figcaption strong, .clip figcaption strong, .beans-list strong,
+.showcase figcaption strong, .label, .pill-label, .marquee span, .ig-handle, .intro p.caption {
+  font-family: var(--font-hand);
+}
+h1, h2 { font-weight: 700; letter-spacing: 0; line-height: 1; }
+h1 { font-size: clamp(3rem, 7vw, 5.6rem); }
+h2 { font-size: clamp(2.6rem, 5.4vw, 4.2rem); }
+h3 { font-weight: 700; font-size: 1.7rem; }
+.hero-copy h1 { font-size: clamp(2.6rem, 5.6vw, 4.6rem); font-weight: 500; }
+.hero-copy h1 strong { font-weight: 700; }
+.float-word { font-size: clamp(1.5rem, 2.6vw, 2.2rem); font-weight: 500; }
+.intro p.caption { font-size: clamp(1.8rem, 3.2vw, 2.6rem); font-weight: 500; line-height: 1.25; }
+.intro p.caption em { font-weight: 700; }
+.fav figcaption strong { font-size: 1.6rem; line-height: 1.1; }
+.clip figcaption strong { font-size: 2rem; }
+.label { font-size: 1.4rem; font-weight: 500; }
+.pill-label { font-size: 1.15rem; letter-spacing: .04em; text-transform: none; }
+.marquee span { font-size: 1.45rem; font-weight: 700; letter-spacing: .02em; text-transform: none; }
+.menu-group h3 { font-size: 2rem; }
+.ig-handle { font-weight: 700; }
+html.a11y-readable h1, html.a11y-readable h2, html.a11y-readable h3, html.a11y-readable .label,
+html.a11y-readable .fav figcaption strong, html.a11y-readable .intro p.caption, html.a11y-readable .marquee span { font-family: Verdana, Arial, sans-serif !important; }
+.intro .strip { margin-top: 56px; }
