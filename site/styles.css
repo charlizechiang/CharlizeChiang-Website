@@ -151,8 +151,8 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 html.a11y-contrast .dog { display: none; }
 
 /* coffee-powder hero with spilled-mug video */
-.hero.beans-bg { background: #4a2a18 url("assets/brand/coffee-powder.jpg") center / cover no-repeat; }
-.hero.beans-bg::before { content: ""; position: absolute; inset: 0; background: rgba(28, 16, 8, .22); pointer-events: none; }
+.hero.beans-bg { background: #1f4a2a url("assets/brand/green-tile.jpg") center / cover no-repeat; }
+.hero.beans-bg::before { content: ""; position: absolute; inset: 0; background: rgba(8, 24, 12, .28); pointer-events: none; }
 .hero.beans-bg .dot, .hero.beans-bg .dog { z-index: 1; }
 .hero.beans-bg .container { position: relative; z-index: 2; }
 .hero.beans-bg .float-word, .hero.beans-bg h1 { color: var(--dot-cream); text-shadow: 0 1px 4px rgba(20, 12, 4, .5); }
@@ -162,16 +162,12 @@ html.a11y-contrast .dog { display: none; }
 .hero.beans-bg .status-pill { background: var(--dot-cream); }
 
 .spill { position: relative; width: min(94vw, 900px); aspect-ratio: 1.6 / 1; }
+.spill-defs { position: absolute; }
 .spill-art { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 2; pointer-events: none; }
-.spill-art .mug path, .spill-art .mug ellipse:not(.coffee) { fill: none; stroke: var(--dot-cream); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
-.spill-art .mug > path:first-child { fill: #4a2a18; }
-.spill-art .coffee { fill: #1c1008; stroke: var(--dot-cream); stroke-width: 5; }
-.spill-art .mug .coffee { stroke: none; }
-.spill-art .puddle-line { fill: none; stroke: var(--dot-cream); stroke-width: 4; }
-.spill-video {
-  position: absolute; left: 12%; top: 24%; width: 84%; height: 74%;
-  clip-path: url(#spill-clip); background: #1c1008; z-index: 1;
-}
+.spill-art .line { fill: none; stroke: var(--dot-cream); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.spill-art .mug .line { stroke-width: 6; }
+.spill-art .mug-body { fill: var(--dot-cream); stroke: var(--dot-cream); stroke-width: 6; stroke-linejoin: round; }
+.spill .spill-video { position: absolute; inset: 0; aspect-ratio: auto; border-radius: 0; clip-path: url(#spill-clip); background: #1c1008; z-index: 1; }
 .spill-video video { width: 100%; height: 100%; object-fit: cover; }
 .spill-video .video-toggle { right: 18%; bottom: 14%; }
 @media (max-width: 640px) {

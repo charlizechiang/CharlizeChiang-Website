@@ -70,32 +70,31 @@
             <span class="float-word" style="bottom:0;left:40%">camaraderie</span>
           </div>
           <div class="spill">
-            <svg class="spill-art" viewBox="0 0 1600 1000" aria-hidden="true" focusable="false">
-              <defs>
-                <path id="puddle" d="M0.30,0.06 C0.36,0.02 0.42,0.10 0.48,0.11 C0.62,0.05 0.80,0.04 0.91,0.15 C1.00,0.25 0.99,0.43 0.95,0.55 C0.99,0.70 0.96,0.86 0.82,0.93 C0.68,1.00 0.51,0.96 0.37,0.95 C0.21,0.99 0.06,0.92 0.02,0.76 C-0.01,0.62 0.05,0.52 0.03,0.40 C0.02,0.25 0.11,0.13 0.23,0.10 C0.26,0.09 0.28,0.08 0.30,0.06 Z"/>
-                <clipPath id="spill-clip" clipPathUnits="objectBoundingBox"><path d="M0.30,0.06 C0.36,0.02 0.42,0.10 0.48,0.11 C0.62,0.05 0.80,0.04 0.91,0.15 C1.00,0.25 0.99,0.43 0.95,0.55 C0.99,0.70 0.96,0.86 0.82,0.93 C0.68,1.00 0.51,0.96 0.37,0.95 C0.21,0.99 0.06,0.92 0.02,0.76 C-0.01,0.62 0.05,0.52 0.03,0.40 C0.02,0.25 0.11,0.13 0.23,0.10 C0.26,0.09 0.28,0.08 0.30,0.06 Z"/></clipPath>
-              </defs>
-              <!-- stream -->
-              <path class="coffee" d="M462,150 C522,182 572,232 584,300 L632,300 C624,222 566,164 498,128 Z"/>
-              <!-- puddle outline -->
-              <path class="puddle-line" d="M595.2,284.4 C675.8,254.8 756.5,314.0 837.1,321.4 C1025.3,277.0 1267.2,269.6 1415.0,351.0 C1536.0,425.0 1522.6,558.2 1468.8,647.0 C1522.6,758.0 1482.2,876.4 1294.1,928.2 C1105.9,980.0 877.4,950.4 689.3,943.0 C474.2,972.6 272.6,920.8 218.9,802.4 C178.6,698.8 259.2,624.8 232.3,536.0 C218.9,425.0 339.8,336.2 501.1,314.0 C541.4,306.6 568.3,299.2 595.2,284.4 Z"/>
-              <!-- splashes -->
-              <ellipse class="coffee drop" cx="150" cy="560" rx="16" ry="11"/>
-              <ellipse class="coffee drop" cx="112" cy="610" rx="9" ry="7"/>
-              <ellipse class="coffee drop" cx="1560" cy="520" rx="13" ry="10"/>
-              <ellipse class="coffee drop" cx="700" cy="250" rx="10" ry="8"/>
-              <!-- tipped mug -->
-              <g class="mug" transform="translate(470 140) rotate(125) scale(1.4)">
-                <path d="M-92,0 C-92,70 -70,128 -40,138 L40,138 C70,128 92,70 92,0"/>
-                <ellipse cx="0" cy="0" rx="92" ry="26"/>
-                <ellipse class="coffee" cx="0" cy="2" rx="76" ry="17"/>
-                <path d="M88,30 C140,22 150,92 82,98"/>
-                <path d="M86,48 C118,46 120,80 80,82"/>
-              </g>
+            <svg class="spill-defs" width="0" height="0" aria-hidden="true" focusable="false">
+              <clipPath id="spill-clip" clipPathUnits="objectBoundingBox" transform="scale(0.000625 0.001)">
+                <path d="M595.2,284.4 C675.8,254.8 756.5,314.0 837.1,321.4 C1025.3,277.0 1267.2,269.6 1415.0,351.0 C1536.0,425.0 1522.6,558.2 1468.8,647.0 C1522.6,758.0 1482.2,876.4 1294.1,928.2 C1105.9,980.0 877.4,950.4 689.3,943.0 C474.2,972.6 272.6,920.8 218.9,802.4 C178.6,698.8 259.2,624.8 232.3,536.0 C218.9,425.0 339.8,336.2 501.1,314.0 C541.4,306.6 568.3,299.2 595.2,284.4 Z"/>
+                <path d="M462,150 C522,182 572,232 584,300 L632,300 C624,222 566,164 498,128 Z"/>
+                <ellipse cx="0" cy="2" rx="80" ry="20" transform="translate(470 140) rotate(125) scale(1.4)"/>
+                <ellipse cx="150" cy="560" rx="16" ry="11"/><ellipse cx="112" cy="610" rx="9" ry="7"/><ellipse cx="1560" cy="520" rx="13" ry="10"/><ellipse cx="700" cy="250" rx="10" ry="8"/>
+              </clipPath>
             </svg>
             <div class="spill-video video-block" data-placeholder="hero video">
               <video src="assets/video/cafe.mp4" poster="assets/video/cafe-poster.jpg" muted loop playsinline autoplay preload="auto" aria-label="Capturing the little moments at Flat White: guests working, sipping and reading at the café"></video>
             </div>
+            <svg class="spill-art" viewBox="0 0 1600 1000" aria-hidden="true" focusable="false">
+              <g class="mug" transform="translate(470 140) rotate(125) scale(1.4)">
+                <path class="mug-body" d="M-92,0 C-92,70 -70,128 -40,138 L40,138 C70,128 92,70 92,0 A92,26 0 0 1 -92,0 Z"/>
+                <ellipse class="line" cx="0" cy="0" rx="92" ry="26"/>
+                <path class="line" d="M88,30 C140,22 150,92 82,98"/>
+                <path class="line" d="M86,48 C118,46 120,80 80,82"/>
+              </g>
+              <path class="line" d="M462,150 C522,182 572,232 584,300 L632,300 C624,222 566,164 498,128 Z"/>
+              <path class="line" d="M595.2,284.4 C675.8,254.8 756.5,314.0 837.1,321.4 C1025.3,277.0 1267.2,269.6 1415.0,351.0 C1536.0,425.0 1522.6,558.2 1468.8,647.0 C1522.6,758.0 1482.2,876.4 1294.1,928.2 C1105.9,980.0 877.4,950.4 689.3,943.0 C474.2,972.6 272.6,920.8 218.9,802.4 C178.6,698.8 259.2,624.8 232.3,536.0 C218.9,425.0 339.8,336.2 501.1,314.0 C541.4,306.6 568.3,299.2 595.2,284.4 Z"/>
+              <ellipse class="line" cx="150" cy="560" rx="16" ry="11"/>
+              <ellipse class="line" cx="112" cy="610" rx="9" ry="7"/>
+              <ellipse class="line" cx="1560" cy="520" rx="13" ry="10"/>
+              <ellipse class="line" cx="700" cy="250" rx="10" ry="8"/>
+            </svg>
           </div>
         </div>
 
