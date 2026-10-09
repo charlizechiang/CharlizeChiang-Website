@@ -208,6 +208,8 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 
 /* ---------- menu ---------- */
 .menu-wrap { background: var(--paper); border-block: 1px solid var(--line); }
+.menu-banner { aspect-ratio: 21 / 8; border-radius: var(--radius); margin: 8px 0 24px; }
+.menu-banner img { object-position: 60% 55%; }
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px 0 36px; }
 .tabs [role="tab"] { min-height: 44px; padding: .7em 1.2em; border-radius: 999px; border: 1.5px solid var(--line); background: var(--cream); color: var(--forest); font: 500 .98rem/1 var(--font-display); transition: background-color .2s, border-color .2s; }
 .tabs [role="tab"]:hover { border-color: var(--leaf); }
