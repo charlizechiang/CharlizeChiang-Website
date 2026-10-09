@@ -6,9 +6,8 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 
 | Filename | Which photo | Used on |
 |---|---|---|
-| `drinks-lineup.jpg` | Barista pouring milk into the row of 5 iced drinks | Home (1) |
-| `pour-over-beans.jpg` | Pour over + chocolate salt bread + Costa Rica Finca El Mango Honey bag | Home – beans |
 | `cafe-shelves.jpg` | Seating wall with pendant lights, bench, bean/merch shelves | Home – merch, Location (2) |
+| `merch.jpg` | Flat White merch (shirts, stickers, cups…) | Home – merch |
 | `pumpkin-spice-latte.jpg` | Pumpkin spice latte poster (leaf latte art) | Home – seasonal |
 | `pumpkin-spice-cold-brew.jpg` | Pumpkin spice cold brew poster | Home – seasonal |
 | `banana-series.jpg` | "BANANA SERIES" photo with all three drinks | Home – banana series |
@@ -20,18 +19,15 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 | `counter-menu.jpg` | Counter with the menu + banana/matcha posters | Location (3) |
 | `team.jpg` | **Full staff photo** (wide/landscape) | About |
 
-Optional extras you sent that would also work well: `matcha-commune.jpg` (iced matcha + Commune bag),
+Optional extras you sent that would also work well: `drinks-lineup.jpg` (milk pour over the row of 5 iced drinks), `matcha-commune.jpg` (iced matcha + Commune bag),
 `salt-bread-hold.jpg` (iced coffee + chocolate salt bread held up).
 
 ## Videos (`assets/video/`)
 
-Vertical (9:16) MP4 clips, 5–20 seconds, no sound needed:
+Already on the site: `cafe.mp4` (home hero), `behind-the-bar.mp4` (home), `bagelier-popup.mp4`
+(home + about). To add more, send the clip and it will be converted for the web
+(iPhone `.mov`/`.MP4` is fine).
 
-| Filename | Idea |
-|---|---|
-| `latte-art.mp4` | Pouring latte art |
-| `signature.mp4` | Making a signature drink |
-| `cafe-day.mp4` | A day at the café |
+## Already in
 
-`cafe.mp4` (the "capturing the little moments" clip) is already in and plays in the home page hero.
-iPhone `.mov` files are fine to upload too. They just need converting for the web first.
+`pour-over-beans.jpg`, `beans-trio.jpg`, `bagelier-*.jpg`
