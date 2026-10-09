@@ -179,7 +179,7 @@ html.a11y-contrast .dog { display: none; }
 .photo-bg {
   position: relative;
   background:
-    linear-gradient(rgba(52, 36, 22, .72), rgba(52, 36, 22, .72)),
+    linear-gradient(rgba(68, 42, 30, .82), rgba(68, 42, 30, .82)),
     url("assets/photos/poster-wall.jpg") center / cover no-repeat;
 }
 .intro.photo-bg p.caption, .intro.photo-bg p.caption em { color: var(--dot-cream); }
