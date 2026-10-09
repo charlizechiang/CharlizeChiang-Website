@@ -17,6 +17,7 @@
   --line: #e2ddca;
   --on-dark: #fbf9f1;
   --on-dark-muted: #cbd8c3;
+  --dot-cream: #ece4cc;   /* warm cream from the logo/menu, not white */
 
   --font-display: "Outfit", system-ui, sans-serif;
   --font-body: "Nunito", system-ui, sans-serif;
@@ -109,7 +110,7 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 .woven h1, .woven h2, .woven h3 { color: var(--on-dark); }
 .woven .label { color: var(--on-dark-muted); }
 .woven .lead, .woven .muted { color: var(--on-dark-muted); }
-.dot { position: absolute; border-radius: 50%; background: var(--cream); opacity: .95; pointer-events: none; filter: blur(.4px); }
+.dot { position: absolute; border-radius: 50%; background: var(--dot-cream); opacity: 1; pointer-events: none; filter: blur(.4px); }
 
 /* ---------- hero (home) ---------- */
 .hero { position: relative; overflow: hidden; padding: clamp(56px, 8vw, 104px) 0 clamp(72px, 9vw, 120px); }
@@ -141,6 +142,52 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 .oval.video-block { border-radius: 50%; aspect-ratio: 1.42 / 1; }
 .oval .video-toggle { right: 50%; transform: translateX(50%); bottom: 14px; }
 .hero-copy .actions { justify-content: center; }
+
+/* matcha-powder hero */
+.hero.matcha {
+  position: relative; overflow: hidden;
+  min-height: clamp(560px, 88vh, 900px);
+  display: grid; place-items: center;
+  padding: 96px 16px;
+  background: #6f7d22 url("assets/brand/matcha-texture.jpg") center / cover no-repeat;
+}
+.carved {
+  margin: 0; font: 400 clamp(4.2rem, 16vw, 12.5rem)/.95 var(--font-display);
+  letter-spacing: .01em; color: #4b4313;
+  text-shadow:
+    0 -2px 2px rgba(30, 32, 0, .55),
+    0 -6px 10px rgba(30, 32, 0, .25),
+    0 2px 1px rgba(214, 222, 120, .55),
+    0 4px 6px rgba(214, 222, 120, .18);
+}
+.hero-center { text-align: center; position: relative; z-index: 1; }
+.hero-center .status-pill { margin: 28px 0 0; background: var(--dot-cream); }
+.hero-center .actions { justify-content: center; margin-top: 18px; }
+.hero.matcha .btn-primary { background: var(--dot-cream); border-color: var(--dot-cream); color: var(--forest); }
+.hero.matcha .btn-ghost { color: var(--dot-cream); border-color: var(--dot-cream); }
+.hero.matcha .btn-ghost:hover { background: rgba(236, 228, 204, .14); color: var(--dot-cream); }
+.hero-corner {
+  position: absolute; margin: 0; max-width: 22ch;
+  font: italic 700 clamp(1rem, 1.6vw, 1.3rem)/1.3 var(--font-body); color: var(--dot-cream);
+  text-shadow: 0 1px 2px rgba(40, 44, 0, .35);
+}
+.hero-corner.tl { top: clamp(20px, 4vw, 48px); left: clamp(16px, 5vw, 64px); }
+.hero-corner.br { bottom: clamp(20px, 4vw, 48px); right: clamp(16px, 5vw, 64px); text-align: right; }
+@media (max-width: 640px) { .hero.matcha { padding: 110px 16px 120px; } }
+
+/* café photo behind the intro */
+.photo-bg {
+  position: relative;
+  background:
+    linear-gradient(rgba(16, 36, 20, .74), rgba(16, 36, 20, .74)),
+    url("assets/photos/poster-wall.jpg") center / cover no-repeat;
+}
+.intro.photo-bg p.caption, .intro.photo-bg p.caption em { color: var(--dot-cream); }
+.intro.photo-bg p.caption em { font-style: italic; font-weight: 400; }
+.photo-bg .frame { border-color: var(--dot-cream); }
+.photo-bg .strip .frame { aspect-ratio: 3 / 4; }
+.video-wide { aspect-ratio: 16 / 9; border-radius: 24px; margin-top: 40px !important; }
+.video-wide + .video-duo { margin-top: 20px; }
 
 /* ---------- photo frames & placeholders ---------- */
 .frame { position: relative; overflow: hidden; border: 1.5px solid var(--forest); background: var(--cream-deep); }
