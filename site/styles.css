@@ -269,6 +269,8 @@ html.a11y-contrast .dog { display: none; }
 .marquee { background: #4e2e20; color: var(--dot-cream); overflow: hidden; border-block: 2px solid #3a2016; }
 .marquee-track { display: flex; gap: 28px; width: max-content; padding: 12px 0; animation: marquee 40s linear infinite; }
 .marquee span { font: 600 1rem/1 var(--font-display); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+.marquee-dog { height: 1.7rem; width: auto; align-self: center; }
+.marquee-track { align-items: center; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
 /* ---------- fan favorites ---------- */
