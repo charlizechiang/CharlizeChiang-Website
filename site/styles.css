@@ -114,7 +114,7 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 
 /* ---------- hero (home) ---------- */
 .hero { position: relative; overflow: hidden; padding: clamp(56px, 8vw, 104px) 0 clamp(72px, 9vw, 120px); }
-.hero-stage { position: relative; display: grid; place-items: center; min-height: clamp(460px, 64vw, 720px); }
+.hero-stage { position: relative; display: grid; place-items: center; min-height: clamp(460px, 66vw, 800px); }
 .oval {
   position: relative; width: min(84vw, 820px); aspect-ratio: 1.42 / 1;
   border-radius: 50%; overflow: hidden; border: 2px solid var(--on-dark);
@@ -161,7 +161,7 @@ html.a11y-contrast .dog { display: none; }
 .hero.beans-bg .btn-ghost:hover { background: rgba(236, 228, 204, .14); color: var(--dot-cream); }
 .hero.beans-bg .status-pill { background: var(--dot-cream); }
 
-.spill { position: relative; width: min(94vw, 900px); aspect-ratio: 1.6 / 1; }
+.spill { position: relative; width: min(96vw, 1060px); aspect-ratio: 1.6 / 1; }
 .spill-defs { position: absolute; }
 .spill-art { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 2; pointer-events: none; }
 .spill-art .line { fill: none; stroke: var(--dot-cream); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
