@@ -8,8 +8,6 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 |---|---|---|
 | `cafe-shelves.jpg` | Seating wall with pendant lights, bench, bean/merch shelves | Home – merch, Location (2) |
 | `merch.jpg` | Flat White merch (shirts, stickers, cups…) | Home – merch |
-| `pumpkin-spice-latte.jpg` | Pumpkin spice latte poster (leaf latte art) | Home – seasonal |
-| `pumpkin-spice-cold-brew.jpg` | Pumpkin spice cold brew poster | Home – seasonal |
 | `banana-series.jpg` | "BANANA SERIES" photo with all three drinks | Home – banana series |
 | `banana-matcha-latte.jpg` | Banana matcha latte | Home – banana series |
 | `einspanner.jpg` | Einspänner (square-ish works best; shown in a circle) | Home – signatures |
@@ -30,4 +28,4 @@ Already on the site: `cafe.mp4` (home hero), `behind-the-bar.mp4` (home), `bagel
 
 ## Already in
 
-`pour-over-beans.jpg`, `beans-trio.jpg`, `bagelier-*.jpg`
+`pour-over-beans.jpg`, `beans-trio.jpg`, `bagelier-*.jpg`, `pumpkin-spice-*.jpg`
