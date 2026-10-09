@@ -144,7 +144,11 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 .hero-copy .actions { justify-content: center; }
 
 /* matcha-powder background on the hero */
-.hero.matcha-bg { background: #6f7d22 url("assets/brand/matcha-texture.jpg") center / cover no-repeat; }
+.hero.matcha-bg {
+  background:
+    linear-gradient(rgba(40, 52, 8, .30), rgba(40, 52, 8, .30)),
+    #7fb81e url("assets/brand/matcha-bowl.jpg") 40% 55% / cover no-repeat;
+}
 .hero.matcha-bg .float-word, .hero.matcha-bg h1 { color: var(--dot-cream); text-shadow: 0 1px 3px rgba(40, 44, 0, .4); }
 .hero.matcha-bg .oval { border-color: var(--dot-cream); }
 .hero.matcha-bg .btn-primary { background: var(--dot-cream); border-color: var(--dot-cream); color: var(--forest); }
