@@ -150,18 +150,20 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 @media (max-width: 640px) { .dog.hide-sm { display: none; } .dog { max-width: 70px; } }
 html.a11y-contrast .dog { display: none; }
 
-/* matcha-powder background on the hero */
-.hero.matcha-bg {
-  background:
-    linear-gradient(rgba(30, 40, 6, .48), rgba(30, 40, 6, .48)),
-    #7fb81e url("assets/brand/matcha-bowl.jpg") 40% 55% / cover no-repeat;
-}
-.hero.matcha-bg .float-word, .hero.matcha-bg h1 { color: var(--dot-cream); text-shadow: 0 1px 3px rgba(40, 44, 0, .4); }
-.hero.matcha-bg .oval { border-color: var(--dot-cream); }
-.hero.matcha-bg .btn-primary { background: var(--dot-cream); border-color: var(--dot-cream); color: var(--forest); }
-.hero.matcha-bg .btn-ghost { color: var(--dot-cream); border-color: var(--dot-cream); }
-.hero.matcha-bg .btn-ghost:hover { background: rgba(236, 228, 204, .14); color: var(--dot-cream); }
-.hero.matcha-bg .status-pill { background: var(--dot-cream); }
+/* coffee-bean video background on the hero */
+.hero.beans-bg { background: #2a1d12; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.hero-bg video { width: 100%; height: 100%; object-fit: cover; }
+.hero-bg::after { content: ""; position: absolute; inset: 0; background: rgba(28, 18, 10, .5); pointer-events: none; }
+.hero-bg .video-toggle { z-index: 3; top: 16px; right: 16px; bottom: auto; }
+.hero.beans-bg .dot, .hero.beans-bg .dog { z-index: 1; }
+.hero.beans-bg .container { position: relative; z-index: 2; }
+.hero.beans-bg .float-word, .hero.beans-bg h1 { color: var(--dot-cream); text-shadow: 0 1px 4px rgba(20, 12, 4, .5); }
+.hero.beans-bg .oval { border-color: var(--dot-cream); }
+.hero.beans-bg .btn-primary { background: var(--dot-cream); border-color: var(--dot-cream); color: var(--forest); }
+.hero.beans-bg .btn-ghost { color: var(--dot-cream); border-color: var(--dot-cream); }
+.hero.beans-bg .btn-ghost:hover { background: rgba(236, 228, 204, .14); color: var(--dot-cream); }
+.hero.beans-bg .status-pill { background: var(--dot-cream); }
 
 /* café photo behind the intro */
 .photo-bg {

@@ -32,8 +32,8 @@
 
   /* ---------- videos: pause/play control (WCAG 2.2.2) ---------- */
   const reduceMotion = () => document.documentElement.classList.contains('a11y-motion') || matchMedia('(prefers-reduced-motion: reduce)').matches;
-  $$('.video-block video').forEach((video) => {
-    const block = video.closest('.video-block');
+  $$('.video-block video, .hero-bg video').forEach((video) => {
+    const block = video.closest('.video-block, .hero-bg');
     video.addEventListener('error', () => markEmpty(video));
     const src = video.currentSrc || video.getAttribute('src');
     if (src) fetch(src, { method: 'HEAD' }).then((r) => { if (!r.ok) markEmpty(video); }).catch(() => {});
@@ -110,7 +110,7 @@
     TOGGLES.forEach(([k]) => root.classList.toggle(`a11y-${k}`, !!state[k]));
     root.style.setProperty('--a11y-scale', SCALES[state.scale] || 1);
     try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {}
-    if (state.motion) $$('.video-block video').forEach((v) => v.pause());
+    if (state.motion) $$('.video-block video, .hero-bg video').forEach((v) => v.pause());
   };
   apply();
 
