@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility · Flat White Coffee</title>
+  <meta name="description" content="Accessibility statement for the Flat White Coffee website.">
+  <meta property="og:title" content="Accessibility · Flat White Coffee">
+  <meta property="og:description" content="Come for the coffee, stay for the camaraderie.">
+  <meta property="og:image" content="assets/brand/logo.png">
+  <link rel="icon" href="assets/brand/cursor-pointer.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="accessibility">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/brand/logo.png" alt="Flat White Coffee home" width="64" height="51"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="index.html" data-nav="home">home</a>
+        <a href="location.html" data-nav="location">location &amp; hours</a>
+        <a href="about.html" data-nav="about">about us</a>
+        <a class="nav-order ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online<span class="sr-only"> (opens Clover in a new tab)</span></a>
+        <a class="ext" href="https://www.instagram.com/flatwhitecoffeeusa/" target="_blank" rel="noopener">instagram<span class="sr-only"> (opens in a new tab)</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero woven on-dark" aria-labelledby="page-title">
+      <div class="container">
+        <span class="label">(accessibility)</span>
+        <h1 id="page-title">accessibility statement</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container" style="max-width:760px">
+        <p>Flat White Coffee wants everyone to be able to use this website. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1, Level AA.</p>
+        <h2 style="font-size:1.6rem">What we've done</h2>
+        <ul>
+          <li>Pages work with a keyboard and screen readers, with visible focus outlines and a "skip to content" link.</li>
+          <li>Text and buttons meet color contrast guidelines.</li>
+          <li>Images have text descriptions, and videos can be paused.</li>
+          <li>The site respects your device's "reduce motion" setting.</li>
+          <li>The accessibility button (bottom left of every page) lets you enlarge text, turn on high contrast, highlight links, switch to a more readable font, add text spacing, stop animations, and use a standard mouse cursor.</li>
+        </ul>
+        <h2 style="font-size:1.6rem">Ordering online</h2>
+        <p>Online orders are handled by Clover, a third-party service. If you have trouble ordering online, call us and we'll take your order by phone.</p>
+        <h2 style="font-size:1.6rem">Tell us about a problem</h2>
+        <p>If something on this site doesn't work for you, please let us know and we'll fix it. Call <a href="tel:+17146991387">(714) 699-1387</a> or stop by the café at 4941 Lincoln Avenue, Cypress, CA 90630.</p>
+        <p class="muted small">Last reviewed: October 2026.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer woven on-dark">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/brand/logo-cream.png" alt="Flat White Coffee home" width="120" height="96"></a>
+      <p>4941 Lincoln Avenue, Cypress, CA 90630</p>
+      <p><a href="tel:+17146991387">(714) 699-1387</a></p>
+      <p>Mon–Sat 6:30 am – 6 pm · Sun 8:30 am – 2:30 pm</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="location.html">location &amp; hours</a>
+        <a href="about.html">about us</a>
+        <a href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online</a>
+        <a href="https://www.instagram.com/flatwhitecoffeeusa/" target="_blank" rel="noopener">instagram</a>
+        <a href="accessibility.html">accessibility</a>
+      </nav>
+      <p class="small">© <span class="year">2026</span> Flat White Coffee</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

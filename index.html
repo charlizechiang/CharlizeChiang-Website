@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flat White Coffee · Cypress, CA</title>
+  <meta name="description" content="Flat White Coffee is a neighborhood coffee shop in Cypress, CA. Come for the coffee, stay for the camaraderie. Espresso, signature lattes, ceremonial matcha, loose leaf tea and seasonal drinks.">
+  <meta property="og:title" content="Flat White Coffee · Cypress, CA">
+  <meta property="og:description" content="Come for the coffee, stay for the camaraderie.">
+  <meta property="og:image" content="assets/brand/logo.png">
+  <link rel="icon" href="assets/brand/cursor-pointer.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Flat White Coffee",
+    "telephone": "+1-714-699-1387",
+    "address": { "@type": "PostalAddress", "streetAddress": "4941 Lincoln Avenue", "addressLocality": "Cypress", "addressRegion": "CA", "postalCode": "90630", "addressCountry": "US" },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "06:30", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "14:30" }
+    ],
+    "sameAs": ["https://www.instagram.com/flatwhitecoffeeusa/"],
+    "hasMenu": "https://flat-white-coffee-cypress.cloveronline.com/menu/all"
+  }
+  </script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/brand/logo.png" alt="Flat White Coffee home" width="64" height="51"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="index.html" data-nav="home">home</a>
+        <a href="location.html" data-nav="location">location &amp; hours</a>
+        <a href="about.html" data-nav="about">about us</a>
+        <a class="nav-order ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online<span class="sr-only"> (opens Clover in a new tab)</span></a>
+        <a class="ext" href="https://www.instagram.com/flatwhitecoffeeusa/" target="_blank" rel="noopener">instagram<span class="sr-only"> (opens in a new tab)</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero woven on-dark" aria-labelledby="hero-title">
+      <span class="dot" style="width:150px;height:150px;top:4%;left:12%" aria-hidden="true"></span>
+      <span class="dot" style="width:120px;height:120px;top:3%;right:22%" aria-hidden="true"></span>
+      <span class="dot" style="width:90px;height:90px;top:46%;left:-30px" aria-hidden="true"></span>
+      <span class="dot" style="width:130px;height:130px;bottom:6%;right:-40px" aria-hidden="true"></span>
+      <span class="dot" style="width:100px;height:100px;bottom:-30px;left:6%" aria-hidden="true"></span>
+
+      <div class="container">
+        <div class="hero-stage">
+          <div class="float-words" aria-hidden="true">
+            <span class="float-word" style="top:4%;left:44%">come</span>
+            <span class="float-word" style="top:22%;left:4%">for the</span>
+            <span class="float-word" style="top:20%;right:4%">coffee,</span>
+            <span class="float-word hide-sm" style="bottom:22%;left:8%">stay</span>
+            <span class="float-word hide-sm" style="bottom:12%;right:10%">for the</span>
+            <span class="float-word" style="bottom:0;left:40%">camaraderie</span>
+          </div>
+          <div class="oval video-block" data-placeholder="hero video">
+            <video src="assets/video/cafe.mp4" poster="assets/video/cafe-poster.jpg" muted loop playsinline autoplay preload="auto" aria-label="Capturing the little moments at Flat White: guests working, sipping and reading at the café"></video>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="status-pill" id="open-status" hidden></p>
+          <h1 id="hero-title">come for the coffee, <strong>stay for the camaraderie.</strong></h1>
+          <div class="actions">
+            <a class="btn btn-primary ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online<span class="sr-only"> (opens in a new tab)</span></a>
+            <a class="btn btn-ghost" href="#menu">see the menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO + NUMBERED STRIP -->
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="container">
+        <h2 id="intro-title" class="sr-only">About Flat White</h2>
+        <p class="caption">We're here to be a part of your <em>daily ritual</em>, and to foster a space where you can unwind, savor your coffee, and cultivate <em>meaningful connections</em>.</p>
+        <div class="strip">
+          <figure>
+            <span class="num" aria-hidden="true">(1)</span>
+            <div class="frame" data-placeholder="drinks lineup">
+              <img src="assets/photos/drinks-lineup.jpg" alt="A barista pouring milk into a lineup of iced matcha, Biscoff and espresso drinks" loading="lazy">
+            </div>
+            <figcaption>your daily ritual</figcaption>
+          </figure>
+          <figure>
+            <span class="num" aria-hidden="true">(2)</span>
+            <div class="frame" data-placeholder="the café">
+              <img src="assets/photos/bagelier-matcha.jpg" alt="An iced matcha in a Flat White cup on the counter" loading="lazy" style="object-position:50% 90%">
+            </div>
+            <figcaption>a place to unwind</figcaption>
+          </figure>
+          <figure>
+            <span class="num" aria-hidden="true">(3)</span>
+            <div class="frame" data-placeholder="people together">
+              <img src="assets/photos/bagelier-poster.jpg" alt="Smiling guests at the counter with coffee and pastries" loading="lazy">
+            </div>
+            <figcaption>meaningful connections</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEASONAL -->
+    <section class="section menu-wrap" aria-labelledby="seasonal-title">
+      <div class="container">
+        <div class="seasonal-grid">
+          <div>
+            <span class="pill-label">seasonal drink menu</span>
+            <h2 id="seasonal-title">pumpkin spice is back.</h2>
+            <p class="lead">Fall at Flat White, starting 9.15.26.</p>
+            <ul class="seasonal-list">
+              <li>pumpkin spice latte</li>
+              <li>pumpkin spice cold brew</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-primary ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order ahead<span class="sr-only"> (opens in a new tab)</span></a>
+            </div>
+          </div>
+          <div class="seasonal-pair">
+            <div class="frame" data-placeholder="pumpkin spice latte">
+              <img src="assets/photos/pumpkin-spice-latte.jpg" alt="Pumpkin spice latte with leaf latte art" loading="lazy">
+            </div>
+            <div class="frame" data-placeholder="pumpkin spice cold brew" style="margin-top:48px">
+              <img src="assets/photos/pumpkin-spice-cold-brew.jpg" alt="Pumpkin spice cold brew topped with cream and cinnamon" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <div class="seasonal-grid" style="margin-top:clamp(72px,9vw,120px)">
+          <div class="seasonal-pair">
+            <div class="frame" data-placeholder="banana series">
+              <img src="assets/photos/banana-series.jpg" alt="Banana matcha latte, banana hojicha latte and banana milk on an orange table" loading="lazy">
+            </div>
+            <div class="frame" data-placeholder="banana matcha latte" style="margin-top:48px">
+              <img src="assets/photos/banana-matcha-latte.jpg" alt="Iced banana matcha latte" loading="lazy">
+            </div>
+          </div>
+          <div>
+            <span class="pill-label">limited series</span>
+            <h2>the banana series.</h2>
+            <p class="lead">Made with real banana.</p>
+            <ul class="seasonal-list">
+              <li>banana matcha latte <span class="muted small">· rich, creamy goodness</span></li>
+              <li>banana hojicha latte <span class="muted small">· sweet, nutty goodness</span></li>
+              <li>banana milk <span class="muted small">· real banana goodness</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURES (stacked plates) -->
+    <section class="section woven on-dark" aria-labelledby="sig-title" style="position:relative;overflow:hidden">
+      <span class="dot" style="width:110px;height:110px;top:8%;right:6%" aria-hidden="true"></span>
+      <span class="dot" style="width:80px;height:80px;bottom:10%;left:5%" aria-hidden="true"></span>
+      <div class="container center">
+        <span class="label">(house favorites)</span>
+        <h2 id="sig-title">our signatures</h2>
+        <div class="plates">
+          <div class="plate frame" data-placeholder="einspänner"><img src="assets/photos/einspanner.jpg" alt="Einspänner" loading="lazy"></div>
+          <div class="plate frame" data-placeholder="family brew"><img src="assets/photos/family-brew.jpg" alt="Family Brew" loading="lazy"></div>
+          <div class="plate frame" data-placeholder="mango cream cold brew"><img src="assets/photos/mango-cream-cold-brew.jpg" alt="Mango Cream Cold Brew" loading="lazy"></div>
+          <p class="plate-note n1">einspänner<small>short latte + house-made cream · iced · 5.75</small></p>
+          <p class="plate-note n2">family brew<small>cold brew + simple syrup + oat milk · iced · 6.00</small></p>
+          <p class="plate-note n3">mango cream cold brew<small>mango cold brew + house-made cream · iced · 6.25</small></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="section" aria-labelledby="video-title">
+      <div class="container center">
+        <span class="label">(watch)</span>
+        <h2 id="video-title">behind the bar</h2>
+        <div class="video-row">
+          <figure class="video-block frame" data-placeholder="video: pouring latte art" style="margin:0">
+            <video src="assets/video/latte-art.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Barista pouring latte art"></video>
+          </figure>
+          <figure class="video-block frame" data-placeholder="video: making a signature" style="margin:0">
+            <video src="assets/video/signature.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Making a signature drink"></video>
+          </figure>
+          <figure class="video-block frame" data-placeholder="video: a day at the café" style="margin:0">
+            <video src="assets/video/cafe-day.mp4" muted loop playsinline autoplay preload="metadata" aria-label="A day at the café"></video>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu-wrap" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <span class="label">(drinks)</span>
+        <h2 id="menu-title">the menu</h2>
+        <p class="muted">Food, add-ons and milk alternatives are on our <a class="ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">online ordering page<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+
+        <div class="tabs" role="tablist" aria-label="Menu categories">
+          <button role="tab" id="tab-coffee" aria-controls="panel-coffee" aria-selected="true">coffee</button>
+          <button role="tab" id="tab-signature" aria-controls="panel-signature" aria-selected="false" tabindex="-1">signature &amp; tea latte</button>
+          <button role="tab" id="tab-matcha" aria-controls="panel-matcha" aria-selected="false" tabindex="-1">matcha</button>
+          <button role="tab" id="tab-tea" aria-controls="panel-tea" aria-selected="false" tabindex="-1">loose leaf tea</button>
+          <button role="tab" id="tab-noncoffee" aria-controls="panel-noncoffee" aria-selected="false" tabindex="-1">non-coffee</button>
+        </div>
+
+        <div class="menu-panel" role="tabpanel" id="panel-coffee" aria-labelledby="tab-coffee" tabindex="0">
+          <div class="menu-cols">
+            <div class="menu-group">
+              <h3>black coffee</h3>
+              <ul class="menu-list">
+                <li><span class="item">Drip <em class="note">until 11 am</em></span><span class="price">3.45</span></li>
+                <li><span class="item">Espresso</span><span class="price">3.50</span></li>
+                <li><span class="item">Americano</span><span class="price">4.25</span></li>
+                <li><span class="item">Pour Over</span><span class="price">5.75</span></li>
+                <li><span class="item">Cold Brew</span><span class="price">5.75</span></li>
+                <li><span class="item">Tonic Espresso</span><span class="price">6.25</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3>milk coffee</h3>
+              <ul class="menu-list">
+                <li><span class="item">Flat White</span><span class="price">4.45</span></li>
+                <li><span class="item">Cappuccino</span><span class="price">4.45</span></li>
+                <li><span class="item">Cortado</span><span class="price">4.45</span></li>
+                <li><span class="item">Macchiato</span><span class="price">4.45</span></li>
+                <li><span class="item">Latte</span><span class="price">5.00</span></li>
+                <li><span class="item">Flavored Latte<span class="desc">vanilla · caramel · hazelnut · mocha · white mocha · lavender · sugar-free vanilla</span></span><span class="price">5.50</span></li>
+                <li><span class="item">Iced Flat White<span class="desc">double espresso + less milk</span></span><span class="price">4.75</span></li>
+                <li><span class="item">Biscoff Latte <span class="tag">iced only</span><span class="desc">brown sugar syrup + biscoff</span></span><span class="price">6.25</span></li>
+                <li><span class="item">Spanish Latte<span class="desc">condensed milk + cinnamon</span></span><span class="price">5.75</span></li>
+                <li><span class="item">Honey Oat Latte</span><span class="price">6.25</span></li>
+                <li><span class="item">Strawberry Latte <span class="tag">iced only</span></span><span class="price">5.50</span></li>
+                <li><span class="item">Honey Lavender Latte</span><span class="price">5.50</span></li>
+                <li><span class="item">Coconut Mocha Latte</span><span class="price">5.50</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" role="tabpanel" id="panel-signature" aria-labelledby="tab-signature" tabindex="0" hidden>
+          <div class="menu-cols">
+            <div class="menu-group">
+              <h3>signature</h3>
+              <ul class="menu-list">
+                <li><span class="item">Einspänner <span class="tag">iced only</span><span class="desc">short latte + house-made cream</span></span><span class="price">5.75</span></li>
+                <li><span class="item">Family Brew <span class="tag">iced only</span><span class="desc">cold brew + simple syrup + oat milk</span></span><span class="price">6.00</span></li>
+                <li><span class="item">Mango Cream Cold Brew <span class="tag">iced only</span><span class="desc">mango cold brew + house-made cream</span></span><span class="price">6.25</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3>tea latte</h3>
+              <ul class="menu-list">
+                <li><span class="item">Hojicha</span><span class="price">5.75</span></li>
+                <li><span class="item">Chai</span><span class="price">5.75</span></li>
+                <li><span class="item">Vanilla Chai</span><span class="price">5.75</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" role="tabpanel" id="panel-matcha" aria-labelledby="tab-matcha" tabindex="0" hidden>
+          <div class="menu-cols">
+            <div class="menu-group">
+              <h3>matcha</h3>
+              <ul class="menu-list">
+                <li><span class="item">Matcha Latte</span><span class="price">5.75</span></li>
+                <li><span class="item">Lavender Matcha</span><span class="price">5.75</span></li>
+                <li><span class="item">Strawberry Matcha <span class="tag">iced only</span></span><span class="price">5.75</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3>ceremonial matcha</h3>
+              <ul class="menu-list">
+                <li><span class="item">Matcha Latte</span><span class="price">5.50</span></li>
+                <li><span class="item">Matcha Tonic <span class="tag">iced only</span></span><span class="price">6.00</span></li>
+                <li><span class="item">Mango Matcha Tonic <span class="tag">iced only</span></span><span class="price">6.25</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" role="tabpanel" id="panel-tea" aria-labelledby="tab-tea" tabindex="0" hidden>
+          <div class="menu-cols menu-cols--3">
+            <div class="menu-group">
+              <h3>green tea</h3>
+              <ul class="menu-list">
+                <li><span class="item">Jasmine</span><span class="price">4.75</span></li>
+                <li><span class="item">Mango Tango</span><span class="price">4.75</span></li>
+                <li><span class="item">Strawberry Basil</span><span class="price">4.75</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3>black tea</h3>
+              <ul class="menu-list">
+                <li><span class="item">Earl Grey</span><span class="price">4.75</span></li>
+                <li><span class="item">Peach Apricot</span><span class="price">4.75</span></li>
+              </ul>
+            </div>
+            <div class="menu-group">
+              <h3>herbal tea <span class="tag tag--soft">caffeine-free</span></h3>
+              <ul class="menu-list">
+                <li><span class="item">Lychee Mariposa</span><span class="price">4.75</span></li>
+                <li><span class="item">Black Forest Berry</span><span class="price">4.75</span></li>
+                <li><span class="item">Lavender Raspberry</span><span class="price">4.75</span></li>
+                <li><span class="item">Chamomile Lavender</span><span class="price">4.75</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" role="tabpanel" id="panel-noncoffee" aria-labelledby="tab-noncoffee" tabindex="0" hidden>
+          <div class="menu-cols">
+            <div class="menu-group">
+              <h3>non-coffee</h3>
+              <ul class="menu-list">
+                <li><span class="item">Hot Chocolate</span><span class="price">4.45</span></li>
+                <li><span class="item">Chocolate Milk</span><span class="price">4.45</span></li>
+                <li><span class="item">Strawberry Milk</span><span class="price">4.00</span></li>
+                <li><span class="item">Mango Lemonade</span><span class="price">4.45</span></li>
+                <li><span class="item">Strawberry Lemonade</span><span class="price">4.45</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEANS & MERCH (showcase only) -->
+    <section class="section" aria-labelledby="shop-title">
+      <div class="container">
+        <span class="label">(take a little home)</span>
+        <h2 id="shop-title">beans &amp; merch</h2>
+        <p class="lead">Pick them up at the café. Just ask at the counter.</p>
+        <div class="showcase">
+          <figure>
+            <div class="frame" data-placeholder="pour over + bean bag">
+              <img src="assets/photos/pour-over-beans.jpg" alt="Pour over coffee and a chocolate salt bread next to a bag of Costa Rica Finca El Mango Honey beans" loading="lazy">
+            </div>
+            <figcaption><strong>coffee beans</strong><span class="muted">Our house blend Commune and rotating single origins, like Costa Rica Finca El Mango Honey.</span></figcaption>
+          </figure>
+          <figure>
+            <div class="frame" data-placeholder="flat white merch">
+              <img src="assets/photos/cafe-shelves.jpg" alt="Shelves of coffee bean bags, tumblers and merch at the café" loading="lazy" style="object-position:70% 52%">
+            </div>
+            <figcaption><strong>merch &amp; brew gear</strong><span class="muted">Tumblers, drippers and more on the shelf by the bench.</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section woven on-dark ig-band" aria-labelledby="ig-title">
+      <span class="dot" style="width:120px;height:120px;top:-30px;left:8%" aria-hidden="true"></span>
+      <span class="dot" style="width:90px;height:90px;bottom:-20px;right:12%" aria-hidden="true"></span>
+      <div class="container">
+        <span class="label" id="ig-title">(follow along)</span>
+        <a class="ig-handle" href="https://www.instagram.com/flatwhitecoffeeusa/" target="_blank" rel="noopener">@flatwhitecoffeeusa<span class="sr-only"> on Instagram (opens in a new tab)</span></a>
+        <p class="lead" style="margin-inline:auto">New drinks, pop-ups and everyday moments at the café.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer woven on-dark">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/brand/logo-cream.png" alt="Flat White Coffee home" width="120" height="96"></a>
+      <p>4941 Lincoln Avenue, Cypress, CA 90630</p>
+      <p><a href="tel:+17146991387">(714) 699-1387</a></p>
+      <p>Mon–Sat 6:30 am – 6 pm · Sun 8:30 am – 2:30 pm</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="location.html">location &amp; hours</a>
+        <a href="about.html">about us</a>
+        <a href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online</a>
+        <a href="https://www.instagram.com/flatwhitecoffeeusa/" target="_blank" rel="noopener">instagram</a>
+        <a href="accessibility.html">accessibility</a>
+      </nav>
+      <p class="small">© <span class="year">2026</span> Flat White Coffee</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

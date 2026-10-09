@@ -10,6 +10,7 @@ unwind, savor your coffee, and cultivate meaningful connections.
 ## Café info
 
 - **Address:** 4941 Lincoln Avenue, Cypress, CA 90630
+- **Phone:** (714) 699-1387
 - **Hours:** Mon–Sat 6:30 am – 6:00 pm · Sun 8:30 am – 2:30 pm
 - **Instagram:** [@flatwhitecoffeeusa](https://www.instagram.com/flatwhitecoffeeusa/)
 - **Online ordering (Clover):** https://flat-white-coffee-cypress.cloveronline.com/menu/all
