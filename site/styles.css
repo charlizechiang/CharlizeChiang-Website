@@ -146,7 +146,7 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 /* matcha-powder background on the hero */
 .hero.matcha-bg {
   background:
-    linear-gradient(rgba(40, 52, 8, .30), rgba(40, 52, 8, .30)),
+    linear-gradient(rgba(30, 40, 6, .48), rgba(30, 40, 6, .48)),
     #7fb81e url("assets/brand/matcha-bowl.jpg") 40% 55% / cover no-repeat;
 }
 .hero.matcha-bg .float-word, .hero.matcha-bg h1 { color: var(--dot-cream); text-shadow: 0 1px 3px rgba(40, 44, 0, .4); }
