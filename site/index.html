@@ -51,17 +51,37 @@
 
   <main id="main">
     <!-- HERO -->
-    <section class="hero matcha on-dark" aria-labelledby="hero-title">
-      <p class="hero-corner tl">coffee &amp; matcha<br>cypress, ca</p>
-      <div class="hero-center">
-        <h1 id="hero-title" class="carved"><span aria-hidden="true">flat white</span><span class="sr-only">Flat White Coffee</span></h1>
-        <p class="status-pill" id="open-status" hidden></p>
-        <div class="actions">
-          <a class="btn btn-primary ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online<span class="sr-only"> (opens in a new tab)</span></a>
-          <a class="btn btn-ghost" href="#menu">see the menu</a>
+    <section class="hero matcha-bg on-dark" aria-labelledby="hero-title">
+      <span class="dot" style="width:150px;height:150px;top:4%;left:12%" aria-hidden="true"></span>
+      <span class="dot" style="width:120px;height:120px;top:3%;right:22%" aria-hidden="true"></span>
+      <span class="dot" style="width:90px;height:90px;top:46%;left:-30px" aria-hidden="true"></span>
+      <span class="dot" style="width:130px;height:130px;bottom:6%;right:-40px" aria-hidden="true"></span>
+      <span class="dot" style="width:100px;height:100px;bottom:-30px;left:6%" aria-hidden="true"></span>
+
+      <div class="container">
+        <div class="hero-stage">
+          <div class="float-words" aria-hidden="true">
+            <span class="float-word" style="top:4%;left:44%">come</span>
+            <span class="float-word" style="top:22%;left:4%">for the</span>
+            <span class="float-word" style="top:20%;right:4%">coffee,</span>
+            <span class="float-word hide-sm" style="bottom:22%;left:8%">stay</span>
+            <span class="float-word hide-sm" style="bottom:12%;right:10%">for the</span>
+            <span class="float-word" style="bottom:0;left:40%">camaraderie</span>
+          </div>
+          <div class="oval video-block" data-placeholder="hero video">
+            <video src="assets/video/cafe.mp4" poster="assets/video/cafe-poster.jpg" muted loop playsinline autoplay preload="auto" aria-label="Capturing the little moments at Flat White: guests working, sipping and reading at the café"></video>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="status-pill" id="open-status" hidden></p>
+          <h1 id="hero-title">come for the coffee, <strong>stay for the camaraderie.</strong></h1>
+          <div class="actions">
+            <a class="btn btn-primary ext" href="https://flat-white-coffee-cypress.cloveronline.com/menu/all" target="_blank" rel="noopener">order online<span class="sr-only"> (opens in a new tab)</span></a>
+            <a class="btn btn-ghost" href="#menu">see the menu</a>
+          </div>
         </div>
       </div>
-      <p class="hero-corner br">come for the coffee,<br>stay for the camaraderie.</p>
     </section>
 
     <!-- INTRO + PHOTOS (café photo background) -->
@@ -204,9 +224,6 @@
       <div class="container center">
         <span class="label">(watch)</span>
         <h2 id="video-title">behind the bar</h2>
-        <figure class="video-block frame video-wide" style="margin:0">
-          <video src="assets/video/cafe.mp4" poster="assets/video/cafe-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Capturing the little moments at Flat White: guests working, sipping and reading at the café"></video>
-        </figure>
         <div class="video-duo">
           <figure class="video-block frame" data-placeholder="video: behind the bar" style="margin:0">
             <video src="assets/video/behind-the-bar.mp4" poster="assets/video/behind-the-bar-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Behind the bar: fresh beans in the grinder hopper and the seasonal posters on the counter"></video>
