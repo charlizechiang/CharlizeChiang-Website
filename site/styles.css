@@ -186,8 +186,6 @@ html.a11y-contrast .dog { display: none; }
 .intro.photo-bg p.caption em { font-style: italic; font-weight: 400; }
 .photo-bg .frame { border-color: var(--dot-cream); }
 .photo-bg .strip .frame { aspect-ratio: 3 / 4; }
-/* shared warm grade so the three photos read as a set */
-.photo-bg .strip img { filter: brightness(.94) contrast(1.04) saturate(.88) sepia(.14); }
 .video-wide { aspect-ratio: 16 / 9; border-radius: 24px; margin-top: 40px !important; }
 .video-wide + .video-duo { margin-top: 20px; }
 
