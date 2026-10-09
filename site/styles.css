@@ -114,9 +114,9 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 
 /* ---------- hero (home) ---------- */
 .hero { position: relative; overflow: hidden; padding: clamp(56px, 8vw, 104px) 0 clamp(72px, 9vw, 120px); }
-.hero-stage { position: relative; display: grid; place-items: center; min-height: clamp(420px, 56vw, 620px); }
+.hero-stage { position: relative; display: grid; place-items: center; min-height: clamp(460px, 64vw, 720px); }
 .oval {
-  position: relative; width: min(78vw, 680px); aspect-ratio: 1.42 / 1;
+  position: relative; width: min(84vw, 820px); aspect-ratio: 1.42 / 1;
   border-radius: 50%; overflow: hidden; border: 2px solid var(--on-dark);
   background: var(--forest-deep);
   box-shadow: 0 30px 60px rgba(0,0,0,.25);
