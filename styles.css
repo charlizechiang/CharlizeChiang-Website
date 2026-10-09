@@ -206,6 +206,18 @@ h3 { font-size: 1.35rem; font-weight: 600; }
   .plate:nth-child(n) { transform: none; }
 }
 
+.sig-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(16px, 3vw, 32px); margin-top: 40px; }
+.sig { margin: 0; }
+.sig .plate { width: 100%; margin: 0 auto; }
+.sig figcaption { margin-top: 16px; font: 400 1.2rem/1.25 var(--font-display); color: var(--on-dark); }
+.sig figcaption small { display: block; margin-top: .3em; font: 400 .88rem/1.4 var(--font-body); color: var(--on-dark-muted); }
+.sig-video { display: grid; grid-template-columns: minmax(0, 320px) 1fr; gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: clamp(56px, 8vw, 96px); text-align: left; }
+.sig-video .video-block { aspect-ratio: 9 / 16; border-radius: 24px; }
+.sig-video h3 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 400; }
+.sig-video p { color: var(--on-dark-muted); max-width: 44ch; }
+@media (max-width: 860px) { .sig-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .sig-video { grid-template-columns: 1fr; text-align: center; } .sig-video .video-block { max-width: 300px; margin: 0 auto; width: 100%; } .sig-video p { margin-inline: auto; } }
+
 /* ---------- menu ---------- */
 .menu-wrap { background: var(--paper); border-block: 1px solid var(--line); }
 .menu-banner { aspect-ratio: 21 / 8; border-radius: var(--radius); margin: 8px 0 24px; }
