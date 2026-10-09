@@ -19,6 +19,8 @@
 
   /* ---------- photos/videos not uploaded yet → show labeled placeholder ---------- */
   const markEmpty = (media) => {
+    const hideable = media.closest('[data-hide-until-photo]');
+    if (hideable) { hideable.hidden = true; return; }
     const box = media.closest('.frame, .oval');
     if (box) box.classList.add('is-empty');
     media.remove();

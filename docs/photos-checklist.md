@@ -1,7 +1,7 @@
 # Photo & video checklist
 
-Upload each photo here (`assets/photos/`) with **exactly** the filename below and it
-appears on the site automatically. Until then the site shows a labeled placeholder.
+Upload each photo to `site/assets/photos/` with **exactly** the filename below and it
+appears on the site automatically. Until then the site shows a labeled placeholder (the staff section on About stays hidden until `team.jpg` exists).
 JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 
 | Filename | Which photo | Used on |
@@ -12,7 +12,7 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 Optional extras you sent that would also work well: `drinks-lineup.jpg` (milk pour over the row of 5 iced drinks),
 `salt-bread-hold.jpg` (iced coffee + chocolate salt bread held up).
 
-## Videos (`assets/video/`)
+## Videos (`site/assets/video/`)
 
 Already on the site: `cafe.mp4` (home hero), `behind-the-bar.mp4` (home), `bagelier-popup.mp4`
 (home + about). To add more, send the clip and it will be converted for the web
