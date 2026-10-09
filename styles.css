@@ -245,6 +245,11 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 .showcase figcaption strong { display: block; font: 600 1.25rem/1.2 var(--font-display); color: var(--forest); }
 @media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
 
+.tee-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; aspect-ratio: 4 / 3; }
+.tee-row .frame { height: 100%; border-radius: var(--radius); }
+.tee-row img { object-position: 50% 40%; }
+.slush p { color: var(--muted); }
+
 /* ---------- video ---------- */
 .video-block { position: relative; border-radius: 24px; overflow: hidden; aspect-ratio: 16 / 9; }
 .video-block.vertical { aspect-ratio: 9 / 16; max-width: 360px; }

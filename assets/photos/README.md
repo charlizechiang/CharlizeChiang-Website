@@ -6,7 +6,6 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 
 | Filename | Which photo | Used on |
 |---|---|---|
-| `merch.jpg` | Flat White merch (shirts, stickers, cups…) | Home – merch |
 | `team.jpg` | **Full staff photo** (wide/landscape) | About |
 
 
