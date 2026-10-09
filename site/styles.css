@@ -143,6 +143,13 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 .oval .video-toggle { right: 50%; transform: translateX(50%); bottom: 14px; }
 .hero-copy .actions { justify-content: center; }
 
+/* floating dog-logo shapes */
+.dog { position: absolute; height: auto; pointer-events: none; transform: rotate(var(--r, 0deg)); animation: dog-bob 7s ease-in-out infinite; }
+.dog:nth-of-type(2n) { animation-delay: -3s; }
+@keyframes dog-bob { 50% { transform: rotate(var(--r, 0deg)) translateY(-8px); } }
+@media (max-width: 640px) { .dog.hide-sm { display: none; } .dog { max-width: 70px; } }
+html.a11y-contrast .dog { display: none; }
+
 /* matcha-powder background on the hero */
 .hero.matcha-bg {
   background:
