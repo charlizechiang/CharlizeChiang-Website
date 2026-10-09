@@ -12,7 +12,6 @@ JPG is best; keep files under ~2 MB (about 1600 px on the long side).
 | `mango-cream-cold-brew.jpg` | Mango Cream Cold Brew | Home – signatures |
 | `team.jpg` | **Full staff photo** (wide/landscape) | About |
 
-| `financiers.jpg` | Financiers (pretzel, almond, chocolate) | Home – pastry case |
 
 Optional extras you sent that would also work well: `drinks-lineup.jpg` (milk pour over the row of 5 iced drinks),
 `salt-bread-hold.jpg` (iced coffee + chocolate salt bread held up).
