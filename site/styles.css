@@ -558,3 +558,15 @@ html.a11y-motion *, html.a11y-motion *::before, html.a11y-motion *::after { anim
   .st-3 { right: 4%; top: auto; bottom: 0; width: clamp(80px, 7vw, 104px); transform: rotate(10deg); }
   .st-4 { left: 49%; top: auto; bottom: 4%; width: clamp(76px, 7vw, 100px); transform: rotate(-8deg); }
 }
+
+/* ---------- something sweet: photos inside hand-drawn sketches ---------- */
+.sweets { background: #f3efe5; }
+.sweets-head { text-align: center; }
+.sweets-head .lead { margin-inline: auto; }
+.sweet-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(32px, 5vw, 64px) clamp(24px, 5vw, 72px); margin-top: clamp(32px, 5vw, 56px); }
+.sweet { margin: 0; text-align: center; }
+.sweet figcaption { font: 500 clamp(1.1rem, 1.8vw, 1.45rem)/1.2 var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: #1c1a14; }
+.sweet img { width: 100%; max-width: 460px; height: clamp(220px, 27vw, 340px); object-fit: contain; margin: 14px auto 6px; }
+.sweet p { margin: 0; font-style: italic; font-weight: 600; color: var(--leaf-ink); }
+.sweets-note { margin: clamp(32px, 4vw, 48px) 0 0; text-align: center; font: 600 .95rem/1.4 var(--font-body); letter-spacing: .03em; color: #3a352a; }
+@media (max-width: 640px) { .sweet-grid { grid-template-columns: 1fr; } }
